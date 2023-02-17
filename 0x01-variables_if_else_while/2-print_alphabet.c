@@ -6,9 +6,14 @@
  */
 int main(void)
 {
-	const char alphabet = "abcdefghijklmnopqrstuvwxyz";
+	const char alphabet = "a";
 
-	putchar(alphabet);
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet)
+		alphabet++
+	}
+	putchar("\n")
 
 	return (0);
 }

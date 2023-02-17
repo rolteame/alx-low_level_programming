@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char alphabet = "abcdefghijklmnopqrstuvwxyz";
+	const char alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-	purchar(alphabet);
+	putchar(alphabet);
 
 	return (0);
 }

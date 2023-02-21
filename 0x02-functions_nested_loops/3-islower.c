@@ -5,7 +5,7 @@
  * @c: passed char
  * Return: 1 if lower, 0 if its not
  */
- int _islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{

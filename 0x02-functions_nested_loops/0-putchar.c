@@ -7,7 +7,7 @@
 
 int print_putchar (void)
 {
-	char input[9] = '_putchar';
+	char input[] = "_putchar";
 	int size_lenght = 9;
 	int i = 0;
 

@@ -8,7 +8,7 @@
 int main (void)
 {
 	char input[] = "_putchar";
-	int size_lenght = 9, i = 0;
+	int size_length = 9, i = 0;
 
 	while (i < size_length)
 	{

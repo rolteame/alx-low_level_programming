@@ -4,17 +4,15 @@
  *
  * Return: Always 0
  */
-int main (void)
+int main(void)
 {
-	int n = 0, num;
+	int a, b;
 
-	while (n < 1024)
+	for (a = 1; a < 1024; a++)
 	{
-		if ((n % 3) == 0 || (n % 5) == 0)
-		{
-			num += n;
-		}
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
 	}
-	printf("%d\n", num);
+	printf("%d\n", b);
 	return (0);
 }

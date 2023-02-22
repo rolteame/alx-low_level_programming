@@ -7,6 +7,11 @@
  */
 int _abs(int n)
 {
-	unsigned int num =  _putchar(n);
-	return (num);
+	if (n >= 0)
+	{
+		_putchar(n);
+	} else
+	{
+		_putchar(-n);
+	}
 }

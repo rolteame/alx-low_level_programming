@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * int _abs - convert to absolute
+ * _abs - convert to absolute
  *
- * @int: value
+ * @n: value
  * Return: Always 0
  */
 int _abs(int n)

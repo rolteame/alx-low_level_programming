@@ -6,13 +6,13 @@
  */
 int main (void)
 {
-	int n = 0;
+	int n = 0, num;
 
 	while (n < 1024)
 	{
 		if ((n % 3) == 0 || (n % 5) == 0)
 		{
-			int num += n;
+			num += n;
 		}
 	}
 	printf("%d\n", num);

@@ -8,6 +8,5 @@
 int _abs(int n)
 {
 	int num = _putchar((unsigned int) n);
-	_putchar('\n');
 	return (num);
 }

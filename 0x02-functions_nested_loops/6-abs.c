@@ -7,5 +7,6 @@
  */
 int _abs(int n)
 {
-	return _putchar((unsigned int) n);
+	unsigned int num =  _putchar(n);
+	return (num);
 }

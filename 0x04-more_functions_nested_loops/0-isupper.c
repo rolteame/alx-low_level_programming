@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print upper char
- * @c: passed character
- * Return: Always 0
+ * _isupper - checks if parameter is an uppercase character.
+ * @c: input character.
+ * Return: 1 if is an uppercase character, 0 in other case.
  */
 int _isupper(int c)
 {
@@ -15,3 +15,4 @@ int _isupper(int c)
 		return (0);
 	}
 }
+

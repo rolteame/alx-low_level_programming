@@ -3,15 +3,18 @@
  * print_most_numbers - print numbers except 2 & 4
  * Return: No return
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int num = 48;
+	int i, ch;
 
-	while (num <= 57)
+	for (i = 0; i < 10; i++)
 	{
-		if (num != 50 && num != 52)
-			_putchar(num);
-		num++;
+		for (ch = 0; ch < 15; ch++)
+		{
+			if (ch >= 10)
+				_putchar((ch / 10) + 48);
+			_putchar((ch % 10) + 48);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }

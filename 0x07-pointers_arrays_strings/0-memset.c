@@ -3,7 +3,8 @@
  *_memset - put constant byte to pointer
  *@s: string
  *@char: character to point
- *@n: nmber
+ *@n: number
+ *Return: return pointer
  */
 char *_memset(char *s, char b, unsigned int n)
 {

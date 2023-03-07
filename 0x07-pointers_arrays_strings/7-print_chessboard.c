@@ -1,8 +1,8 @@
-#include "main.h"
+#include "holberton.h"
 /**
- *print_chessboard - print matrix
- *@a: value of first array
- *Return 0
+ * print_chessboard - print a chessboard
+ * @a:array
+ * Return:void
  */
 void print_chessboard(char (*a)[8])
 {

@@ -2,7 +2,7 @@
 /**
  *_memset - put constant byte to pointer
  *@s: string
- *@char: character to point
+ *@b: character to point
  *@n: number
  *Return: return pointer
  */

@@ -1,41 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
- * main - add numbers
- * @argc: count
- * @argv: vector
- * Return: 0
+ * main - Print result of adding given arguments
+ * @argc: Number of arguments
+ * @argv: Arguments recieved
+ *
+ * Return: 0 on success, 1 if theres a nondigit arg
  */
 int main(int argc, char *argv[])
 {
-	int sum = 0;
+	int sum;
+	int count;
+	int i;
 
+	count = 1;
+	sum = 0;
 	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
 	}
-
-	for (int i = 1; i < argc; i++)
+	while (count < argc)
 	{
-		int j = 0;
-
-		while (argv[i][j] != '\0')
+		for (i = 0; argv[count][i] != '\0'; i++)
 		{
-			if (!isdigit(argv[i][j]))
+			if (!(isdigit(argv[count][i])))
 			{
 				printf("Error\n");
 				return (1);
 			}
-			j++;
 		}
-		int num = atoi(argv[i]);
-
-		if (num > 0)
-		{
-			sum += num;
-		}
+		sum += atoi(argv[count]);
+		count++;
 	}
 	printf("%d\n", sum);
 	return (0);

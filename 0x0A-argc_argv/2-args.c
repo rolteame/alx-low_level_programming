@@ -7,7 +7,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int count = 0;
+	int count;
+
+	count = 0;
 
 	for (; count < argc; count++)
 		printf("%s", argv[count]);

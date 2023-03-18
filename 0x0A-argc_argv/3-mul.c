@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - multiply two numbers"\
+ * main - multiply two numbers
  * @argc: argument count
  * @argv: argument vector
  * Return: Always 0
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	mul = num1 * num2;
-	
+
 	printf("%d\n", mul);
 
 	return (0);

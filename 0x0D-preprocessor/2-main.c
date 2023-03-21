@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print file name from macro
- *Return - Always0
+ * Return: Always 0
  */
 int main(void)
 {

@@ -1,6 +1,12 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 #include <stdio.h>
+
+/**
+ * dog_t - Typedef for struct dog
+ */
+typedef struct dog dog_t;
+
 /**
  * struct dog - struct for dog information
  * @name: name of dog
